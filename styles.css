@@ -97,9 +97,56 @@ body {
     text-decoration: none;
 }
 
-.logo-spiral {
-    font-size: 2rem;
-    animation: rotate 3s linear infinite;
+.logo-image {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.hero-logo-image {
+    height: 80px;
+    width: auto;
+    margin: 0 auto 1rem;
+    display: block;
+}
+
+/* Responsive logo adjustments */
+@media (max-width: 768px) {
+    .logo-image {
+        height: 35px;
+        margin-right: 8px;
+    }
+    
+    .hero-logo-image {
+        height: 60px;
+    }
+    
+    .nav-logo {
+        font-size: 1.3rem;
+    }
+    
+    .footer-logo {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-image {
+        height: 30px;
+        margin-right: 6px;
+    }
+    
+    .hero-logo-image {
+        height: 50px;
+    }
+    
+    .nav-logo {
+        font-size: 1.2rem;
+    }
+    
+    .footer-logo {
+        font-size: 0.9rem;
+    }
 }
 
 .nav-menu {
