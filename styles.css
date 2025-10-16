@@ -24,7 +24,7 @@
     --gray-900: #212121;
     
     /* Typography */
-    --font-primary: 'Poppins', sans-serif;
+    --font-primary: 'Comic Sans MS', 'Comic Sans', cursive;
     --font-script: 'Dancing Script', cursive;
     
     /* Spacing */
@@ -51,7 +51,7 @@ html {
 body {
     font-family: var(--font-primary);
     line-height: 1.6;
-    color: var(--gray-800);
+    color: red;
     overflow-x: hidden;
 }
 
